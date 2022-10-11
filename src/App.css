@@ -6,3 +6,7 @@
   h1{
     font-weight: bold !important;
   }
+  body{
+    overflow-x: hidden;
+  scroll-behavior: smooth;
+  }

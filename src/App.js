@@ -3,6 +3,8 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { routes } from "./routes";
 import NavBarComp from "./components/NavBarComp/NavBarComp";
+import Footer from "./components/Footer/Footer";
+import { AnimatePresence, motion } from "framer-motion";
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,7 @@ function App() {
             );
           })}
         </Routes>
+        {/* <Footer /> */}
       </Router>
     </div>
   );

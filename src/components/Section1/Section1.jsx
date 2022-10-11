@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-
+import { motion } from "framer-motion";
 const Section1 = () => {
   return (
     <Container className="py-5 text-center">
@@ -9,7 +9,12 @@ const Section1 = () => {
         2022.
       </h1>
       <br />
-      <p className="text-secondary">
+      <motion.p
+        initial={{ opacity: 0, y: 500 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ type: "spring", bounce: 0.5, duration: 3 }}
+        viewport={{ once: true, amount: 0.1 }}
+        className="text-secondary">
         We cherish what we have and hold on to it even if we are not using it.
         It is equally important to understand what and how to yield more from
         your old items.Now, REUSE—is easier because Team Scrap Care India is
@@ -57,7 +62,7 @@ const Section1 = () => {
         other important stakeholders are expected to move beyond traditional
         waste management systems and adopt innovative technologies which result
         in more integrated solutions.
-      </p>
+      </motion.p>
     </Container>
   );
 };

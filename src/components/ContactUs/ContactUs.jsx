@@ -1,5 +1,6 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import video from "../../assets/mailbox-hologram-close-up-4k-2021-08-31-09-18-15-utc.mp4";
 import "./Contactus.scss";
 const ContactUs = () => {
@@ -26,6 +27,9 @@ const ContactUs = () => {
               Scrap, Computer Scrap Buyer, Copper Scrap, Demolishing Work Scrap
               Etc.
             </p>
+            <Link to="/contact-us">
+              <Button variant="outline-light">Contact Us</Button>
+            </Link>
           </Col>
         </Row>
       </Container>
