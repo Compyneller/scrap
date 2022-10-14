@@ -18,6 +18,7 @@ function NavBarComp() {
               transition={{
                 type: "spring",
                 bounce: 0.5,
+                delay: 0.25,
                 duration: 2,
               }}>
               <Nav.Link as={Link} to="/">
@@ -30,7 +31,8 @@ function NavBarComp() {
               transition={{
                 type: "spring",
                 bounce: 0.5,
-                duration: 4,
+                delay: 0.5,
+                duration: 2,
               }}>
               <Nav.Link as={Link} to="/contact-us">
                 Contact Us
@@ -42,7 +44,8 @@ function NavBarComp() {
               transition={{
                 type: "spring",
                 bounce: 0.5,
-                duration: 6,
+                delay: 0.75,
+                duration: 2,
               }}>
               <Nav.Link as={Link} to="/about">
                 About Us

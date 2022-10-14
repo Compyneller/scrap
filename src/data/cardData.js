@@ -6,45 +6,45 @@ export const cardData = [
     name: "Electronics",
     image:
       "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-electronics-home-appliance-flaticons-lineal-color-flat-icons-9.png",
-    duration: 2,
+    delay: 0.25,
   },
   {
     name: "Appliances",
     image: "https://img.icons8.com/fluency/344/appliances.png",
-    duration: 4,
+    delay: 0.5,
   },
   {
     name: "Furniture",
     image: "https://img.icons8.com/color/344/wardrobe--v2.png",
-    duration: 6,
+    delay: 0.75,
   },
   {
     name: "Paper",
     image:
       "https://img.icons8.com/external-justicon-flat-justicon/344/external-paper-education-justicon-flat-justicon.png",
-    duration: 8,
+    delay: 1,
   },
   {
     name: "Plastic",
     image:
       "https://img.icons8.com/external-nawicon-flat-nawicon/344/external-plastic-pollution-nawicon-flat-nawicon-2.png",
-    duration: 10,
+    delay: 1.25,
   },
   {
     name: "Steel Scrap",
     image: "https://img.icons8.com/color/344/metal.png",
-    duration: 12,
+    delay: 1.5,
   },
   {
     name: "Iron Scrap",
     image:
       "https://img.icons8.com/external-filled-outline-geotatah/344/external-iron-geological-exploration-color-filled-outline-geotatah.png",
-    duration: 14,
+    delay: 1.75,
   },
   {
     name: "Others",
     image: "https://img.icons8.com/fluency/344/window-other.png",
-    duration: 16,
+    delay: 2,
   },
 ];
 export const secondCardData = [

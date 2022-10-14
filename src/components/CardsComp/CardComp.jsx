@@ -13,7 +13,12 @@ const CardComp = () => {
               <motion.div
                 initial={{ opacity: 0, scale: 1.5 }}
                 whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ type: "spring", bounce: 0.5, duration: 3 }}
+                transition={{
+                  type: "spring",
+                  bounce: 0.5,
+                  duration: 2,
+                  delay: `${items.delay}`,
+                }}
                 viewport={{ once: true, amount: 0.1 }}>
                 <Card className="shadow card-comp" style={{ height: "100%" }}>
                   <Card.Body className="d-flex flex-column justify-content-center align-items-center">
