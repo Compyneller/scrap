@@ -11,13 +11,20 @@ const Footer = () => {
       viewport={{ once: true, amount: 0.1 }}
       className="w-100 py-5 bg-dark text-light">
       <Container>
-        <div className="d-flex justify-content-center ">
+        <div className="d-flex justify-content-center " style={{ gap: "1rem" }}>
           <Link
             to="/pp"
             className="text-light"
             onClick={() => window.scroll(0, 0)}
             style={{ fontWeight: "bold" }}>
             Privacy Policy
+          </Link>
+          <Link
+            to="/tc"
+            className="text-light"
+            onClick={() => window.scroll(0, 0)}
+            style={{ fontWeight: "bold" }}>
+            Terms and Conditions
           </Link>
         </div>
         <br />

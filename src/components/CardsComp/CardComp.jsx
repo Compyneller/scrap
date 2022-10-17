@@ -9,7 +9,7 @@ const CardComp = () => {
       <Row className="g-4">
         {cardData.map((items, index) => {
           return (
-            <Col xs={12} sm={6} md={4} lg={3} key={index}>
+            <Col xs={6} sm={4} md={3} lg={3} key={index}>
               <motion.div
                 initial={{ opacity: 0, scale: 1.5 }}
                 whileInView={{ opacity: 1, scale: 1 }}

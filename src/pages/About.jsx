@@ -10,7 +10,7 @@ import SplideComp from "../components/Splide/SplideComp";
 import ContactUs from "../components/ContactUs/ContactUs";
 const About = () => {
   return (
-    <div className="About-mainContainer">
+    <div className="About-mainContainer" style={{ overflow: "hidden" }}>
       <motion.div
         initial={{ y: 500 }}
         animate={{ y: 0 }}
